@@ -1,0 +1,108 @@
+.footer-info {
+    display: flex;
+    height: 220px;
+    border-bottom: 1px solid #7D7D7D;
+    position: relative;
+
+    &__leng {
+        width: 227px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3B3B3B;
+        border-radius: 2px;
+        padding: 0 8px 0 16px;
+        margin-top: 32px;
+
+        @media (min-width: 640px) and (max-width: 1023px) {
+            width: 176px;
+        }
+    }
+
+    &__leng span {
+        position: absolute;
+        left: 48px;
+        font-size: 13px;
+        line-height: 15px;
+        color: #ffffff;
+    }
+
+    &__hashtag {
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin: 33px 0 20px 0;
+    }
+
+    &__hashtag span {
+        color: #49A144;
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        margin-left: 3px;
+    }
+
+    &__icons--twitter {
+        margin: 0 14px 0 18px;
+    }
+
+    &--middle {
+        display: flex;
+        flex-direction: column;
+        margin: 32px 154px 0 97px;
+        padding-top: 7px;
+
+        @media (min-width: 640px) and (max-width: 1023px) {
+            margin: 32px 86px 0 80px;
+        }
+
+        @media (min-width: 320px) and (max-width: 639px) {
+            margin: 42px 0 0 0;
+            padding-top: 0;
+        }
+    }
+
+    &--middle a {
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-bottom: 23px;
+    }
+
+    &--middle a:hover {
+        text-decoration: underline;
+    }
+
+    &--right {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+        padding-top: 7px;
+
+        @media (min-width: 320px) and (max-width: 639px) {
+            margin-top: 0;
+            padding-top: 0;
+        }
+    }
+
+    &--right a {
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-bottom: 23px;
+    }
+
+    &--right a:hover {
+        text-decoration: underline;
+    }
+
+    @media (min-width: 320px) and (max-width: 639px) {
+        height: 492px;
+        flex-direction: column;
+    }
+}

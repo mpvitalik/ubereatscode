@@ -1,0 +1,11 @@
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-bottom: 1px solid #7D7D7D;
+
+    &__img {
+        margin-right: 40px;
+    }
+}

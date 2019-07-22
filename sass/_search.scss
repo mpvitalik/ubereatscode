@@ -1,0 +1,22 @@
+.search {
+    height: 79px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #D6D6D6;
+    display: flex;
+    align-items: flex-end;
+
+    &__icon {
+        width: 22px;
+        height: 22px;
+        margin: 0 8px 16px 0;
+        background: url(img/search.svg);
+    }
+
+    &__input {
+        margin-bottom: 16px;
+        width: 223px;
+        height: 24px;
+        border: none;
+    }
+}

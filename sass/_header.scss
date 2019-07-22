@@ -1,0 +1,98 @@
+.header {
+    height: 72px;
+    max-width: 100%;
+    padding: 0 80px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(204,204,204,1);
+    box-shadow: 0px 5px 10px 0px rgba(204,204,204,1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & input {
+        height: 40px;
+        border: 1px solid #E0E0E0;
+        border-radius: 2px;
+    }
+
+    &__wrap-input span {
+        display: inline-block;
+        margin: 0 5px;
+        color: #626262;
+    }
+
+    &__wrap-input {
+        @media (min-width: 320px) and (max-width: 639px) {
+            display: none;
+        }
+    }
+
+    &__input-asap {
+        width: 65px;
+        padding-left: 12px;
+
+        @media (min-width: 640px) and (max-width: 1023px) {
+            width: 57px;
+        }
+    }
+
+    &__input-address {
+        width: 292px;
+        background: url(img/Combined-Shape.svg) center left no-repeat;
+        background-position-x: 12px;
+        padding-left: 36px;
+
+        @media (min-width: 640px) and (max-width: 1023px) {
+            width: 205px;
+        }
+    }
+
+    &__btn {
+        width: 80px;
+        height: 40px;
+        padding: 10px 12px;
+        border-radius: 2px;
+        text-decoration: none;
+    }
+
+    &__singin {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+        border: 1px solid #E0E0E0;
+        color: #1D1D1D;
+    }
+
+    &__register {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+        background-color: #262626;
+        color: #FFFFFF;
+        margin-left: 16px;
+
+        @media (min-width: 640px) and (max-width: 1023px) {
+            margin-left: 6px;
+        }
+    }
+
+    &__basket {
+        width: 40px;
+        height: 72px;
+        background: url(img/basket.svg) center no-repeat;
+        cursor: pointer;
+
+        @media (min-width: 320px) and (max-width: 639px) {
+            display: none;
+        }
+    }
+
+    @media (min-width: 640px) and (max-width: 1023px) {
+        padding: 0 8px;
+    }
+
+    @media (min-width: 320px) and (max-width: 639px) {
+        width: 100%;
+        padding: 0 8px;
+    }
+}

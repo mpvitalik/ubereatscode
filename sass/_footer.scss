@@ -1,0 +1,19 @@
+.footer {
+    background-color: #262626;
+    padding: 0 80px;
+
+    &__logo {
+        height: 116px;
+        border-bottom: 1px solid #7D7D7D;
+        display: flex;
+        align-items: center;
+    }
+
+    @media (min-width: 640px) and (max-width: 1023px) {
+        padding: 0 8px;
+    }
+
+    @media (min-width: 320px) and (max-width: 639px) {
+        padding: 0 8px;
+    }
+}
